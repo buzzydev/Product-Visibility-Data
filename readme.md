@@ -2,6 +2,21 @@
 
 This document summarizes an exploratory analysis of the Soft Drink Market Insight Challenge data from Alimosho Local Government Area of Lagos, Nigeria. The goal was to clean the raw survey data, derive useful features and visualise patterns in soft‑drink availability, packaging, outlet types and brand presence. Although the dataset captures supply‑side information (what outlets stock and how prominently), careful analysis can still reveal much about consumer demand and market dynamics.
 
+
+The original data set is saved with the name **"product_visibility_challenge_data.csv"** and the script for cleaning the data set is saved as **"data_cleaning.py".**
+After cleaning the data, a file named **"Cleaned_product_visibility.csv"** will be created. This file contains a cleaner version of the data that will be used for analysis and visualizations.
+
+Visualizations will be carried out through streamlit and plotly, as well as pandas and you can find the code in **"visualizations.py".**
+
+## Running the code
+To get the most accurate results from this workflow, start by cleaning the data with the **"data_cleaning.py"** script. You can run it in visual studio or on the command line with the command **python data_cleaning.py**.
+Next, run the **"visualizations.py"** script but first install dependencies if you don't already have them...
+
+* Step 1: Search for **cmd** on your apps menu on your computer
+* Step 2: Open the app called **Command Prompt** that shows up and type the following command **pip install streamlit plotly**
+* Step 3: please ensure you are connected to the internet and that you are patient.
+* Step 4: Now execute the following command to run the script **streamlit run visualizations.py**
+
 ## Data Cleaning & Feature Engineering
 
 The original CSV contained grouping rows, inconsistent column names and several nearly empty fields. Cleaning steps included:
@@ -65,3 +80,7 @@ Although the survey doesn’t track individual purchases, it does reveal several
 This analysis shows a soft‑drink market dominated by a handful of brands and packaging formats, with retailers largely able to keep products on the shelf. Shops carry the broadest assortments and maintain the healthiest inventories, while smaller formats like kiosks and hawkers exhibit more variability in stock levels. By combining thoughtful data cleaning, feature engineering and visual storytelling, we can infer consumer preferences and market dynamics even from outlet‑level data.
 
 Feel free to explore the interactive dashboard (via the Streamlit app in this repository) for a deeper dive into the data and to experiment with different filters.
+
+Should you have any questions or comments, please reach out to the author of this project by mail: olatundedotun6@gmail.com, olatundedotun@outlook.com
+By phone: +234(0) 802 783 4543, 0805 442 5729
+By WhatsApp: wa.me/+2348027834543
