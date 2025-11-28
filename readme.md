@@ -83,7 +83,11 @@ Although the survey doesn’t track individual purchases, it does reveal several
 This analysis shows a soft‑drink market dominated by a handful of brands and packaging formats, with retailers largely able to keep products on the shelf. Shops carry the broadest assortments and maintain the healthiest inventories, while smaller formats like kiosks and hawkers exhibit more variability in stock levels. By combining thoughtful data cleaning, feature engineering and visual storytelling, we can infer consumer preferences and market dynamics even from outlet‑level data.
 
 Feel free to explore the interactive dashboard (via the Streamlit app in this repository) for a deeper dive into the data and to experiment with different filters.
+Better still, you could visit my-visualizations.streamlit.app to view the dashboard. That way, you get to experience the visuals without having to run the code or installing any dependencies.
 
-Should you have any questions or comments, please reach out to the author of this project by mail: olatundedotun6@gmail.com, olatundedotun@outlook.com
+Should you have any questions or comments, please reach out to me:
+By mail: olatundedotun6@gmail.com, olatundedotun@outlook.com
 By phone: +234(0) 802 783 4543, 0805 442 5729
 By WhatsApp: wa.me/+2348027834543
+
+My name is Dotun Olatunde and thank you for stopping by.
