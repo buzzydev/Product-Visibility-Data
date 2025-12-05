@@ -1,4 +1,4 @@
 .venv/
 __pychache__/
 .env
-.streamlit/
+.streamlit/secrets.toml
