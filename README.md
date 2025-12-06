@@ -20,10 +20,10 @@ The project is organised into several subfolders:
 | [`Files`](Files/) | Raw and cleaned data used for data analysis and model training. |
 ## Getting Started
 
-1. **Data cleaning and EDA** – See the notebooks in [`analysis`](analysis/) to understand how the raw CSV was cleaned and what insights were derived from the data.
-2. **Model training** – The script [`train_models.py`](train_models.py) loads the cleaned dataset, engineers features and trains a variety of classifiers and clustering models.  The resulting `.pkl` files are stored in the `models/` folder.
-3. **Database setup** – Define your database credentials in `database/database.py` or via environment variables.  Then run [`database/create_db.py`](database/create_db.py) to create the tables.  Use [`seed_brands.py`](seed_brands.py) to populate the `brands` table.
-4. **Streamlit app** – Navigate to [`app`](app/) and install dependencies listed in [`requirements.txt`](app/requirements.txt).  Run `streamlit run app/app.py` to launch the prototype.  Consumers can sign up, log in, see nearby outlets, get recommendations and leave ratings.  Owners can register their businesses, upload a logo and view a basic dashboard of their outlets.
+1. **Data cleaning and EDA** – See the scripts in [`Analysis`](Analysis/) to understand how the raw CSV was cleaned and what insights were derived from the data.
+2. **Model training** – The script [`train_models.py`](Models/train_models.py) loads the cleaned dataset, engineers features and trains a variety of classifiers and clustering models.  The resulting `.pkl` files are stored in the `models/` folder.
+3. **Database setup** – Define your database credentials in `database/database.py` or via environment variables.  Then run [`Database/create_db.py`](Database/create_db.py) to create the tables.  Use [`seed_brands.py`](App/Database/seed_brands.py) to populate the `brands` table.
+4. **Streamlit app** – Navigate to [`App`](App/) and install dependencies listed in [`requirements.txt`](App/requirements.txt).  Run `streamlit run app/app.py` or click *[here](https://soda-spot.streamlit.app)* to launch the prototype.  Consumers can sign up, log in, see nearby outlets, get recommendations and leave ratings.  Owners can register their businesses, upload a logo and view a basic dashboard of their outlets.
 
 ## Status and Future Work
 
