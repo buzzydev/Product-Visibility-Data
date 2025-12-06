@@ -24,7 +24,7 @@ from sqlalchemy import (
 from sqlalchemy.orm import relationship
 from datetime import datetime
 
-from ..Database.database import Base
+from .Database.database import Base
 
 
 class User(Base):
