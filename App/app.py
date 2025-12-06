@@ -1,5 +1,5 @@
 """
-Streamlit application for the Productvisibility project.
+Streamlit application for the Product visibility project.
 
 This app provides two user roles: consumers and outlet owners.  Consumers
 can sign up with a favourite drink and their location, log in, and see
@@ -848,6 +848,7 @@ def owner_dashboard(user: User, session: Session) -> None:
             with info_col:
                 st.markdown(f"### {o.name} ({o.outlet_type})")
                 brands = [ob.brand.name for ob in o.brands]
+                num_brands = len(brands)
                 st.markdown(f"**Brands stocked:** {', '.join(brands) if brands else 'None'}")
                 # Placeholder for analytics and competitor analysis
                 st.markdown("**Analytics:** Coming soon")
